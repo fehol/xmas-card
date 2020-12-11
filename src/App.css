@@ -1,3 +1,52 @@
-.div {
-  background: black;
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* background: url('https://i.ibb.co/1sQXJ4z/page-bg.png') no-repeat center
+    center/cover; */
+  background: url('https://media.giphy.com/media/12vfdaQ1V7w0ms/giphy.gif')
+    no-repeat center center/cover;
+
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.animated {
+  font-family: 'Charm', cursive;
+  margin: 0;
+  padding: 0;
+  font-size: 6rem;
+  background: url('https://i.ibb.co/89Cf3dm/text  -bg.png') no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: moveBg 90s linear infinite;
+  -webkit-animation: moveBg 90s linear infinite;
+}
+
+.Text {
+  font-family: 'Charm', cursive;
+  font-size: 2rem;
+  color: #464343;
+}
+
+/* Text Background Animation */
+@keyframes moveBg {
+  0% {
+    background-position: 0% 30%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
 }

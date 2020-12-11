@@ -1,11 +1,4 @@
-body {
-  background: url(snow/breitmeyer-rechtsanwaelte.jpg);
-  background-size: cover;
-  margin: 0;
-  padding: 0px;
-}
-
-.snow {
+/* .snow {
   background: url(snow/snow.png);
   height: 100vh;
   width: 200vh;
@@ -35,4 +28,4 @@ body {
   100% {
     background-position: 350px 350px;
   }
-}
+} */
