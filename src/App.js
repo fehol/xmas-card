@@ -11,7 +11,7 @@ function App() {
         zu starten.
       </p>
       <img
-        src="https://media.giphy.com/media/f5w18q4nzplKT0UcNH/giphy.gif"
+        src="https://media.giphy.com/media/efxvRdbGDmbyLEcQIK/giphy.gif"
         alt="Rudolf"
       />
     </div>
